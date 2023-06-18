@@ -1,10 +1,23 @@
+@google_search
 Feature: google search feature - this describes the name of this feature file
 
-  Scenario: TC_01_iphone_search - scenario is used to create test cases
+  # Background: used to run before each scenario
 
+  Background: Navigation_google
     Given user is on the google home page
+
+  Scenario: TC_01_iphone_search - scenario is used to create test cases
     And user search for iPhone
     Then verify the page title contains iPhone
+    Then close the application
+
+
+    @porcelain_teapot
+  Scenario: TC_02_porcelain_teapot_search
+    And user search for porcelain tea pot
+    Then verify the page title contains porcelain tea pot
+    Then close the application
+
 
 #    All feature files must begin with Feature: keyword
 #    We use Scenario: to create test cases/test scenarios
