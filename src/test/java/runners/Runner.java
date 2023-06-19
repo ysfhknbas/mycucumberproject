@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
         dryRun = false, // (true) gives only missing steps - (false) default
-        tags = "@parameterizing1" // run only this
+        tags = "@customer_login" // run only this
 )
 public class Runner {
 
