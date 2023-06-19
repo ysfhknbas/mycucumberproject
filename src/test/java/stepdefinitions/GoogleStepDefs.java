@@ -61,7 +61,7 @@ public class GoogleStepDefs {
     }
     @Then("verify the page title contains {string}")
     public void verify_the_page_title_contains(String string) {
-
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
     }
 
 }
