@@ -4,6 +4,7 @@ Feature: customer_login
     Given user navigates to "https://bluerentalcars.com"
     And user clicks on home page login button
     And user enters "<email>" and "<password>"
+    And capture the screenshot
     And user clicks on the login page login button
     Then verify the default page is visible
     Then user logs out the application
