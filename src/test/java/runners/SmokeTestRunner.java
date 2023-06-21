@@ -16,11 +16,14 @@ import org.junit.runner.RunWith;
         },
         monochrome = true,
         features = "./src/test/resources/features",
-        glue = {"stepdefinitions","hooks"},
+        glue = {"stepdefinitions"},
         dryRun = false, // (true) gives only missing steps - (false) default
-        tags = "@excel_admin"// run only this
+        tags = "@smoke_test_runner"// run only this
 
 )
-public class Runner {
+public class SmokeTestRunner {
 
 }
+/*
+scenario_outline1
+*/
