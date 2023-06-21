@@ -1,4 +1,4 @@
-@google_search
+@google_search @regression_test_runner
 Feature: google search feature - this describes the name of this feature file
 
   # Background: used to run before each scenario
