@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","hooks"},
         dryRun = false, // (true) gives only missing steps - (false) default
-        tags = "@parameterizing1 or @failed_test_case"// run only this
+        tags = "@parameterizing1"// run only this
 
 )
 public class Runner {
