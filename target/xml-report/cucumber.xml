@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="55.012" tests="8" skipped="0" failures="2" errors="0">
-<testcase classname="search_feature" name="TC01_iphone_search" time="6.293">
+<testsuite name="Cucumber" time="33.785" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="search_feature" name="TC01_iphone_search" time="7.252">
 <system-out><![CDATA[
 Given user navigates to "https://google.com"................................passed
 And user search for "iPhone"................................................passed
@@ -8,7 +8,7 @@ Then verify the page title contains "iPhone"................................pass
 Then close the application..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="search_feature" name="TC02_tesla_search" time="4.669">
+<testcase classname="search_feature" name="TC02_tesla_search" time="5.487">
 <system-out><![CDATA[
 Given user navigates to "https://google.com"................................passed
 And user search for "tesla".................................................passed
@@ -16,7 +16,7 @@ Then verify the page title contains "tesla".................................pass
 Then close the application..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="search_feature" name="TC03_bmw_search" time="5.216">
+<testcase classname="search_feature" name="TC03_bmw_search" time="5.481">
 <system-out><![CDATA[
 Given user navigates to "https://google.com"................................passed
 And user search for "bmw"...................................................passed
@@ -24,7 +24,7 @@ Then verify the page title contains "bmw"...................................pass
 Then close the application..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="search_feature" name="TC04_apple_search" time="4.408">
+<testcase classname="search_feature" name="TC04_apple_search" time="5.517">
 <system-out><![CDATA[
 Given user navigates to "https://google.com"................................passed
 And user search for "apple".................................................passed
@@ -32,7 +32,7 @@ Then verify the page title contains "apple".................................pass
 Then close the application..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="search_feature" name="TC05_nio_search" time="4.95">
+<testcase classname="search_feature" name="TC05_nio_search" time="4.652">
 <system-out><![CDATA[
 Given user navigates to "https://google.com"................................passed
 And user search for "nio"...................................................passed
@@ -40,110 +40,12 @@ Then verify the page title contains "nio"...................................pass
 Then close the application..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="search_feature" name="TC06_pineapple_search" time="5.19">
+<testcase classname="search_feature" name="TC06_pineapple_search" time="5.228">
 <system-out><![CDATA[
 Given user navigates to "https://google.com"................................passed
 And user search for "pine apple"............................................passed
 Then verify the page title contains "pine apple"............................passed
 Then close the application..................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="customer_login_failing" name="TC01_&lt;PositiveTest&gt;_customer_login_test - test_data - Example #1.1" time="12.11">
-<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#dropdown\-basic\-button&quot;}
-  (Session info: chrome=114.0.5735.134)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [28cf3e5f0a76b527e35a60c1ec0967b5, findElement {using=id, value=dropdown-basic-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yusuf\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54892/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 28cf3e5f0a76b527e35a60c1ec0967b5">
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown\-basic\-button"}
-  (Session info: chrome=114.0.5735.134)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [28cf3e5f0a76b527e35a60c1ec0967b5, findElement {using=id, value=dropdown-basic-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yusuf\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54892/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 28cf3e5f0a76b527e35a60c1ec0967b5
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at stepdefinitions.BlueRentalStepDefs.user_logs_out_the_application(BlueRentalStepDefs.java:36)
-	at ✽.user logs out the application(file:///C:/Users/yusuf/IdeaProjects/mycucumberproject/./src/test/resources/features/day29_failed_test_cases.feature:7)
-]]>
-</failure>
-<system-out><![CDATA[
-Given user navigates to "https://www.bluerentalcars.com/"...................passed
-And user clicks on home page login button...................................passed
-And user enters "sam.walker@bluerentalcars.com" and "c!fas_art".............passed
-Then user logs out the application..........................................failed
-Then close the application..................................................skipped
-]]></system-out>
-</testcase>
-<testcase classname="customer_login_failing" name="TC01_&lt;PositiveTest&gt;_customer_login_test - test_data - Example #1.2" time="12.025">
-<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#dropdown\-basic\-button&quot;}
-  (Session info: chrome=114.0.5735.134)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a2e9a6810fe2da2368b8173a82eed09, findElement {using=id, value=dropdown-basic-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yusuf\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54919/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6a2e9a6810fe2da2368b8173a82eed09">
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dropdown\-basic\-button"}
-  (Session info: chrome=114.0.5735.134)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6a2e9a6810fe2da2368b8173a82eed09, findElement {using=id, value=dropdown-basic-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yusuf\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54919/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6a2e9a6810fe2da2368b8173a82eed09
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at stepdefinitions.BlueRentalStepDefs.user_logs_out_the_application(BlueRentalStepDefs.java:36)
-	at ✽.user logs out the application(file:///C:/Users/yusuf/IdeaProjects/mycucumberproject/./src/test/resources/features/day29_failed_test_cases.feature:7)
-]]>
-</failure>
-<system-out><![CDATA[
-Given user navigates to "https://www.bluerentalcars.com/"...................passed
-And user clicks on home page login button...................................passed
-And user enters "kate.brown@bluerentalcars.com" and "tad1$Fas"..............passed
-Then user logs out the application..........................................failed
-Then close the application..................................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>
