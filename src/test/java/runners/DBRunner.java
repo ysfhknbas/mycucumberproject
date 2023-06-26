@@ -1,6 +1,5 @@
 package runners;
 
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -12,16 +11,14 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
-                "rerun:target/failedRerun.txt",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                "rerun:target/failedRerun.txt"
         },
         monochrome = true,
         features = "./src/test/resources/features",
-        glue = {"stepdefinitions","hooks"},
+        glue = {"stepdefinitions"},
         dryRun = false, // (true) gives only missing steps - (false) default
-        tags = "@grid"// run only this
+        tags = "@account_types"// run only this
 
 )
-public class Runner {
-
+public class DBRunner {
 }
